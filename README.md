@@ -30,3 +30,54 @@ Real-time Data Processing: Automated data pipeline with Python
 Scalable Architecture: Modular design supporting large datasets
 
 Enterprise Ready: Production-grade data validation and quality checks.
+
+# Data Pipeline
+graph LR
+    A[Raw CSV Data] --> B[Data Validation];
+    B --> C[Data Cleaning];
+    C --> D[Feature Engineering];
+    D --> E[Tableau Data Extract];
+    E --> F[Dashboard Visualization];
+
+# 📊 Dashboard Components
+## 1. Executive Summary
+KPI Overview: Total titles, movies vs shows ratio, international content percentage
+
+Content Health Score: Overall library quality and diversity metrics
+
+Growth Indicators: Monthly additions and release trends
+
+## 2. Geographical Analysis
+World Heat Map: Content density by country with interactive tooltips
+
+Regional Breakdown: Continent-level content distribution
+
+Production Hubs: Top content-producing countries analysis
+
+## 3. Content Portfolio
+Type Distribution: Movies vs TV Shows with temporal trends
+
+Genre Performance: Top 10 genres with growth metrics
+
+Rating Analysis: Audience segmentation by content rating
+
+## 4. Temporal Analysis
+Release Timeline: Content addition patterns over years
+
+Seasonal Trends: Monthly addition patterns and seasonality
+
+Growth Metrics: Year-over-year content expansion rates
+
+# Future Enhancements
+Machine learning integration for content recommendations
+
+Multi-platform content comparison (vs competitors)
+
+Advanced financial modeling for content ROI
+
+API for third-party integrations
+
+#📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
